@@ -1,10 +1,24 @@
-const chorus = "Let's dance!";
-let repeat = 0;
-while (repeat < 10) {
-if (repeat === 5) {
-console.log("*change key*");
+function calculateTriangleArea(length, width) {
+  return length * width / 2
 }
-console.log(chorus);
-repeat++;
+
+function calculateRectangleArea(base, height) {
+  return base * height
 }
-console.log("Until the sun comes up");
+
+function calculateCircleArea(radius) {
+  return Math.PI * radius * radius
+}
+
+if (calculateRectangleArea.name === true)
+  (function calculateRectangleArea(base, height) {
+    return [base * height]
+  })
+if (calculateTriangleArea.name === true)
+  (function calculateTriangleArea(length, width) {
+    return [length * width / 2]
+  })
+
+else(function calculateCircleArea(radius) {
+  return [Math.PI * radius * radius]
+})

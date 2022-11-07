@@ -1,5 +1,6 @@
-const chorus = "Let's dance!";
-for (let repeat = 0; repeat < 10; repeat++) {
-console.log(chorus);
+function howManyHundreds(num) {
+  var div = num / 100;
+  return Math.floor(div);
 }
-console.log("Until the sun comes up!")
+
+console.log(howManyHundreds(1000), "=?", 10);
